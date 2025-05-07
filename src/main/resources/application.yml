@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ssoauthclient
+server:
+  port: 8081
+jwt:
+  secret: your-very-secure-secret-key-1234567890
+  expiration: 86400000
+logging:
+  level:
+    com.dtk.ssoauthclient: INFO
